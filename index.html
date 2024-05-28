@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home Page</title>
+</head>
+<body>
+	<h1>Delete Employee Record</h1>
+	<form action="http://localhost:9393/ServletContextDemoApp/delete"
+		method="get">
+		Enter Employee ID:: <input type="text" name="id"><br> <input
+			type="submit" value="delete">
+	</form>
+
+	<h1>Update Employee Record</h1>
+	<form action="http://localhost:9393/ServletContextDemoApp/update"
+		method="post">
+		Enter Employee ID:: <input type="text" name="id"><br>
+		Enter Updated Salary::<input type="text" name="sal"><br>
+		<input type="submit" value="update">
+	</form>
+</body>
+</html>
